@@ -9,6 +9,11 @@ cask "polisher" do
 
   app "Polisher.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Polisher.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.triplewhale.polisher.plist",
   ]
