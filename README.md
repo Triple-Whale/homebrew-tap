@@ -2,12 +2,6 @@
 
 Homebrew tap for Triple Whale developer tools.
 
-## Install
-
-```bash
-brew tap Triple-Whale/tap
-```
-
 ## Available Apps
 
 ### Polisher
@@ -15,7 +9,7 @@ brew tap Triple-Whale/tap
 AI-powered text polisher that lives in your menu bar.
 
 ```bash
-brew install --cask polisher
+brew install --cask Triple-Whale/tap/polisher
 ```
 
 **Usage:** Copy text, press `Cmd+Option+I`, paste the improved text.
