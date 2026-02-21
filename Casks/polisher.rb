@@ -1,6 +1,6 @@
 cask "polisher" do
-  version "2.1"
-  sha256 "7880334d4d5a692f0f88e449ca580dca4f25f01d893b62124e64a71267d9c535"
+  version "2.4"
+  sha256 "938cf08ba6e4eca359a011b4a003add348f00a123e030319cd26eeb3012b613c"
 
   url "https://github.com/Triple-Whale/Polisher/releases/download/v#{version}/Polisher.dmg"
   name "Polisher"
