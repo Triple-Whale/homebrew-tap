@@ -1,6 +1,6 @@
 cask "polisher" do
-  version "2.6"
-  sha256 "958db9e32d05a615645005e8d23b8f661e251705c1df1b83c57f6ef60f7e731a"
+  version "2.7"
+  sha256 "395751014dbdb1c852c10243bf54d96429775d27a63226b665fbdf7e88d53fb9"
 
   url "https://github.com/Triple-Whale/Polisher/releases/download/v#{version}/Polisher.dmg"
   name "Polisher"
@@ -12,6 +12,8 @@ cask "polisher" do
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Polisher.app"]
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.provenance", "#{appdir}/Polisher.app"]
   end
 
   zap trash: [
