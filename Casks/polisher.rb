@@ -1,8 +1,8 @@
 cask "polisher" do
-  version "3.3"
-  sha256 "d16b39d9e1fa90511a45d92e53fb33320c124c42027648d9d270107a171c9e09"
+  version "3.4"
+  sha256 "5ca9415eb4422984a708237169eedcfbcf5c28c42499c0eee3cdc7a0ff53937e"
 
-  url "https://github.com/Triple-Whale/Polisher/releases/download/v#{version}/Polisher.dmg"
+  url "https://github.com/Triple-Whale/Polisher/releases/download/v#{version}/Polisher-#{version}.dmg"
   name "Polisher"
   desc "AI-powered text polisher from your menu bar"
   homepage "https://github.com/Triple-Whale/Polisher"
